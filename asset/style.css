@@ -45,3 +45,20 @@ img{
   left: 50%;
   bottom: -1%;
 }
+
+.btn-chev{
+  position: absolute;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0,0,0,.5);
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: white;
+}
+
+.btn-chev:hover{
+  background-color: white;
+  color: black;
+}
