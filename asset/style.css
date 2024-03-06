@@ -1,11 +1,17 @@
 *{
   margin: 0;
-  padding: 0;
+  padding: 0 auto;
   box-sizing: border-box;
 }
 
-body{
-  background-color: black;
-  width: 100%;
-  height: vh(100%);
+.hide{
+  display: none;
+}
+
+.main-wrapper{
+  height: 100vh;
+  background-color: #dadada;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
