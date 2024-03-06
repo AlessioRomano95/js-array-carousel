@@ -18,3 +18,13 @@ const images = [
 ]
 
 let counterImg = 0;
+
+// 3
+for(let i = 0; i < images.length; i++){
+  const img = images [i];
+  itemsWrapper.innerHTML += `<img class="img hide" src="${img}">`
+}
+
+// 4
+const itemsCollection = document.getElementsByClassName('img');
+
